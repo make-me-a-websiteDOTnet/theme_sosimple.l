@@ -1,0 +1,33 @@
+name = SoSimple
+description = A simple, clean and responsive corporate theme.
+core = 7.x
+engine = phptemplate
+
+
+; Image appears on admin/appearance
+screenshot = images/screenshot.png
+
+; Reset styles with normalize
+stylesheets[all][] = css/normalize.css
+
+; Foundation framework stylesheets
+stylesheets[all][] = css/foundation.min.css
+
+; Modernizr acts as a shim for HTML5 elements for older browsers
+; as well as detection for mobile devices.
+scripts[] = js/vendor/custom.modernizr.js
+
+; Foundation framework scripts.
+scripts[] = js/foundation.min.js
+
+; Regions are output in the page.tpl.php
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[help]           = Help
+regions[highlighted]    = Highlighted
+regions[content]        = Content
+regions[sidebar_first]  = Left Sidebar
+regions[sidebar_second] = Right Sidebar
+regions[footer_first]   = Footer first
+regions[footer_middle]  = Footer middle
+regions[footer_last]    = Footer last
