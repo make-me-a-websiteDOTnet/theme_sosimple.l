@@ -4,7 +4,7 @@ core = 7.x
 engine = phptemplate
 
 
-; Image appears on admin/appearance test
+; Image appears on admin/appearance
 screenshot = images/screenshot.png
 
 ; Reset styles with normalize
